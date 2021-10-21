@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-image: url("./R.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.genius{
+    background-color: white;
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-areas: 'azul vermelho' 'amarelo verde';
+    gap: 10px;
+    overflow: hidden;
+}
+
+.blue{
+    background-color: blue;
+    grid-area: azul;
+    
+}
+.red{
+    background-color: red;
+    grid-area: vermelho;
+}
+.yellow{
+    background-color: yellow;
+    grid-area: amarelo;
+}
+.green{
+    background-color: green;
+    grid-area: verde;
+}
+
+.selected{
+    opacity: 0.4;
+}
+.score,.title{
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
